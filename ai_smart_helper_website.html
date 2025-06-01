@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Smart IT Helper</title>
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', Arial, sans-serif;
+            background: #f6f8fa;
+            margin: 0;
+            padding: 0;
+            color: #222;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+            padding: 40px 32px 32px 32px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #1a237e;
+        }
+        h2 {
+            font-size: 1.5rem;
+            color: #3949ab;
+            margin-top: 2.5rem;
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 2rem;
+        }
+        .section {
+            margin-bottom: 2.5rem;
+        }
+        .agent-cards {
+            display: flex;
+            gap: 24px;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: #f1f4fb;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(60,80,180,0.06);
+            padding: 24px 20px;
+            flex: 1 1 220px;
+            min-width: 220px;
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #283593;
+            font-size: 1.1rem;
+        }
+        .card ul {
+            padding-left: 18px;
+            margin: 0;
+        }
+        .story {
+            background: #e3eafc;
+            border-left: 5px solid #3949ab;
+            padding: 18px 22px;
+            border-radius: 8px;
+            margin-bottom: 1.2rem;
+        }
+        .cost-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1.5rem;
+        }
+        .cost-table th, .cost-table td {
+            border: 1px solid #c5cae9;
+            padding: 10px 14px;
+            text-align: left;
+        }
+        .cost-table th {
+            background: #e8eaf6;
+        }
+        .cost-table td {
+            background: #f5f7fa;
+        }
+        @media (max-width: 700px) {
+            .container { padding: 18px 4vw; }
+            .agent-cards { flex-direction: column; gap: 12px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AI Smart Helper for Fixing IT Problems Fast</h1>
+        <div class="subtitle">Imagine having a super-smart assistant that never sleeps and catches problems before they get big.</div>
+        <div class="section">
+            <h2>What's the Problem?</h2>
+            <ul>
+                <li>Too many tickets to watch: Your team can't monitor every single ticket coming in</li>
+                <li>Problems hide in the crowd: A major system failure might look like just another ticket until it's too late</li>
+                <li>People get tired: Human eyes miss patterns, especially at night or during busy times</li>
+                <li>Slow response: By the time someone notices something's wrong, customers are already angry</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Our Solution: The Smart AI Helper</h2>
+            <div class="agent-cards">
+                <div class="card">
+                    <h3>The Watcher</h3>
+                    <ul>
+                        <li>Looks at every new ticket as it comes in</li>
+                        <li>Remembers what "normal" looks like</li>
+                        <li>Spots when something unusual is happening</li>
+                        <li>Never sleeps, never takes breaks</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>The Problem Solver</h3>
+                    <ul>
+                        <li>Decides what to do when the Watcher finds something weird</li>
+                        <li>Moves urgent tickets to the top</li>
+                        <li>Sends alerts to the right people immediately</li>
+                        <li>Starts fixing simple problems on its own</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>The Learner</h3>
+                    <ul>
+                        <li>Remembers what worked and what didn't</li>
+                        <li>Gets smarter over time</li>
+                        <li>Teaches the other helpers to be better</li>
+                        <li>Learns from your team's expertise</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Real Examples of What It Catches</h2>
+            <div class="story">
+                <strong>The Login Crisis:</strong> 200 people can't log in. <br>
+                <em>Without AI Helper:</em> 200 tickets pile up, takes 2 hours to realize it's one big problem.<br>
+                <em>With AI Helper:</em> Spots the pattern in 30 seconds, alerts the team, creates one master ticket, and informs users.
+            </div>
+            <div class="story">
+                <strong>The Angry Customer Pattern:</strong> Multiple complaints about a slow website.<br>
+                <em>Without AI Helper:</em> Each complaint handled separately, pattern noticed too late.<br>
+                <em>With AI Helper:</em> Notices negative feedback clustering, checks server, finds the issue, and alerts the web team before more customers get frustrated.
+            </div>
+            <div class="story">
+                <strong>The 3 AM Emergency:</strong> Critical system starts failing at night.<br>
+                <em>Without AI Helper:</em> Problem grows until Monday morning.<br>
+                <em>With AI Helper:</em> Immediately wakes up the on-call engineer, provides all the details needed to fix it fast.
+            </div>
+        </div>
+        <div class="section">
+            <h2>What It Costs vs What You Save</h2>
+            <table class="cost-table">
+                <tr><th>Investment</th><th>Savings</th></tr>
+                <tr><td>Similar to hiring one experienced IT person for a year</td><td>Prevent just one major outage and you've paid for the whole project</td></tr>
+                <tr><td></td><td>Save hundreds of hours per month of manual ticket sorting</td></tr>
+                <tr><td></td><td>Avoid the cost of angry customers leaving</td></tr>
+                <tr><td></td><td>Reduce overtime and stress-related burnout</td></tr>
+            </table>
+        </div>
+        <div class="section" style="text-align:center; margin-top:2.5rem;">
+            <strong>This is like having the smartest IT person you know working 24/7 to make sure problems get caught and fixed fast.<br>Your team stays happy, your customers stay happy, and you sleep better at night.</strong>
+        </div>
+    </div>
+</body>
+</html>
